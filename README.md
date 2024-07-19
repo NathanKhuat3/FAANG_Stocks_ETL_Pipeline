@@ -1,0 +1,2 @@
+# FAANG_Stocks_ETL_Pipeline
+ An ETL parallel pipeline that extracts and transform historical monthly stock data of FAANG companies into a PostgreSQL database, and joined this data with a CSV file from the Data Lake containing additional information about the stock and the companies. The joined data is then loaded into the Data Lake in a CSV format. This pipeline uses AWS cloud computing services such as RDS, S3 and EC2. 
